@@ -5,7 +5,7 @@ FROM python:latest
 LABEL version="1.0.0"
 LABEL maintainer="samyakusoma@gmail.com"
 
-#Add python code create_pyramid
+#Add python code create_pyramids
 ADD create_pyramid.py /
 
 #Execute python script
